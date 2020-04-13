@@ -1,0 +1,127 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 72px;
+  padding-bottom: 98px;
+}
+
+.header-menu {
+  display: inline-block;
+  font-size: 14px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 900px;
+  text-align: center;
+}
+
+.header-menu li:not(:last-child) {
+  margin-right: 100px;
+}
+
+.header-menu li {
+  display: inline-block;
+}
+
+.header-menu a:hover,
+.header-menu a:focus {
+  color: #03a9f4;
+}
+
+.header-menu a {
+  display: block;
+  font-family: "Playfair Display", Arial, serif;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #626262;
+}
+
+main.container {
+  font-size: 0;
+}
+
+div.article {
+  margin-bottom: 82px;
+}
+
+.article-blok {
+  display: inline-block;
+  margin-bottom: 130px;
+  width: 420px;
+}
+
+.article-blok:nth-child(2n + 1) {
+  margin-right: 60px;
+}
+
+.article-blok:nth-last-child(-n + 2) {
+  margin-bottom: 0;
+}
+
+p.article-blok_item {
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  padding-top: 30px;
+  padding-bottom: 26px;
+  margin: 0;
+}
+
+h2.article-blok_titlle {
+  font-family: "Playfair Display", Arial, serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #626262;
+  padding-bottom: 33px;
+  margin: 0;
+}
+
+p.article-blok_text {
+  font-family: "Playfair Display", Arial, serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}
+
+div.button {
+  margin-bottom: 20px;
+}
+
+.button-item {
+  display: block;
+  padding: 20px 32px;
+  border: 1px solid rgb(98, 98, 98);
+  font-family: "Playfair Display", Arial, serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #626262;
+  background-color: #ffffff;
+  cursor: pointer;
+  width: 166px;
+  margin: 0 auto;
+}
