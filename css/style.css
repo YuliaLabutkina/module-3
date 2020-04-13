@@ -113,7 +113,7 @@ div.button {
 }
 
 .button-item {
-  display: block;
+  display: inline-block;
   padding: 20px 32px;
   border: 1px solid rgb(98, 98, 98);
   font-family: "Playfair Display", Arial, serif;
