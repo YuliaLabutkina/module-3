@@ -109,6 +109,7 @@ p.article-blok_text {
 
 div.button {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .button-item {
@@ -122,6 +123,4 @@ div.button {
   color: #626262;
   background-color: #ffffff;
   cursor: pointer;
-  width: 166px;
-  margin: 0 auto;
 }
