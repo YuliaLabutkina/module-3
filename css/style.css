@@ -25,12 +25,10 @@ img {
 }
 
 .header-menu {
-  display: inline-block;
   font-size: 14px;
   list-style: none;
   padding: 0;
   margin: 0;
-  width: 900px;
   text-align: center;
 }
 
@@ -48,7 +46,6 @@ img {
 }
 
 .header-menu a {
-  display: block;
   font-family: "Playfair Display", Arial, serif;
   line-height: 24px;
   font-weight: 400;
